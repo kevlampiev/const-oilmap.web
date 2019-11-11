@@ -4,7 +4,8 @@
   "description": "An application for selectin tech oils. Made with Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./src/server/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/kevlampiev/const-oilmap.web/issues"
   },
-  "homepage": "https://github.com/kevlampiev/const-oilmap.web#readme"
+  "homepage": "https://github.com/kevlampiev/const-oilmap.web#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jasmine-node": "^3.0.0",
+    "momentum": "^4.0.0",
+    "nodemon": "^1.19.4"
+  }
 }
